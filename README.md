@@ -21,8 +21,11 @@ A **hand gesture-based virtual keyboard** using Python, OpenCV, and MediaPipe. T
 ## Usage
 
 -Hover your index finger over a key to highlight it.
+
 -Bring thumb and index finger together to select a key.
+
 -Shift toggles capitalization.
+
 -Save writes the current text to typed_text.txt.
 
 
