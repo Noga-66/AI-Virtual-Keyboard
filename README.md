@@ -8,8 +8,8 @@ A **hand gesture-based virtual keyboard** using Python, OpenCV, and MediaPipe. T
 
 - Detects a single hand and tracks finger tips.
 - Virtual keyboard interaction:
-  - Click keys by bringing index finger and thumb together.
-  - Support for letters, Space, Delete, Shift, and Save keys.
+- Click keys by bringing index finger and thumb together.
+- Support for letters, Space, Delete, Shift, and Save keys.
 - Word prediction for faster typing.
 - Save typed text to a file.
 - Visual feedback with hover and click effects.
