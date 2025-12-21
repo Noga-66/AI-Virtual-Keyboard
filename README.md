@@ -16,7 +16,9 @@ A **hand gesture-based virtual keyboard** using Python, OpenCV, and MediaPipe. T
 - Sound effects for key clicks.
 
 ---
-##Usage
+
+
+## Usage
 
 -Hover your index finger over a key to highlight it.
 -Bring thumb and index finger together to select a key.
@@ -40,14 +42,9 @@ Install dependencies via pip:
 pip install opencv-python numpy mediapipe playsound
 
 
----
-
 ## How to Run
 
 ```bash
 python virtual_keyboard.py
 
----
 
-##Author
-Nada Hossam
