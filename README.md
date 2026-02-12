@@ -1,4 +1,4 @@
-#🎮 NEON TYPE
+# NEON TYPE
 
 Gesture-Controlled Virtual Keyboard using Computer Vision
 
