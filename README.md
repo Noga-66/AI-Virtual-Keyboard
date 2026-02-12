@@ -3,6 +3,7 @@ Gesture-Controlled Virtual Keyboard using Computer Vision
 
 A real-time, interactive virtual keyboard powered by hand tracking and gesture recognition.
 Designed with a futuristic neon gaming UI and immersive visual feedback effects.
+_______________________________________________________________________________________________
 
 📌 Overview
 
@@ -22,6 +23,7 @@ Visual feedback effects
 Human-computer interaction (HCI)
 
 This project demonstrates applied AI in user interface control without physical input devices.
+_________________________________________________________________________________________________________________
 
 ✨ Key Features
 🖐 Hand Tracking
@@ -85,6 +87,8 @@ Delete
 Space
 
 Save typed text to file
+__________________________________________________________________________________________________________
+
 
 🧠 Technical Architecture
 1️⃣ Input Layer
@@ -124,7 +128,7 @@ Alpha blending
 Animated text rendering using sine functions
 
 Overlay-based glow system
-
+_________________________________________________________________________________________________________________________________
 🛠 Tech Stack
 Technology	Purpose
 Python	Core language
@@ -138,7 +142,7 @@ git clone https://github.com/your-username/Neon-Type-Virtual-Keyboard.git
 cd Neon-Type-Virtual-Keyboard
 pip install -r requirements.txt
 python neon_type.py
-
+______________________________________________________________________________________________________________________________
 📂 Project Structure
 Neon-Type-Virtual-Keyboard/
 │
@@ -148,29 +152,21 @@ Neon-Type-Virtual-Keyboard/
 ├── README.md
 └── assets/
     └── demo.gif
-
-🎯 How It Works
+___________________________________________________________________________________________________________________________
+##🎯 How It Works
 
 Webcam captures frame
-
 HandDetector extracts landmarks
-
 Index & thumb distance is calculated
-
 If distance < threshold → click event triggered
-
 Corresponding key is appended to text buffer
-
 Visual & audio feedback executed
-
-📊 Performance Considerations
+______________________________________________________________________________________________________________________________
+##📊 Performance Considerations
 
 Optimized for 720p resolution
-
 Single-hand detection for efficiency
-
 Time-based debounce for input stability
-
 Lightweight UI rendering (no external GUI frameworks)
 
 🚀 Future Improvements
