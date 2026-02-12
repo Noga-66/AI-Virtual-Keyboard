@@ -1,7 +1,7 @@
-opencv-python
-numpy
-playsound
 streamlit
+opencv-python-headless
 cvzone
 mediapipe
+numpy
+playsound
 pygame
