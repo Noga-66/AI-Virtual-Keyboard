@@ -7,7 +7,7 @@ Designed with a futuristic neon gaming UI and immersive visual feedback effects.
 _______________________________________________________________________________________________
 
 
-#📌 Overview
+# Overview
 
 Neon Type is a real-time virtual keyboard that allows users to type using hand gestures captured through a webcam.
 
@@ -27,7 +27,7 @@ Human-computer interaction (HCI)
 This project demonstrates applied AI in user interface control without physical input devices.
 _________________________________________________________________________________________________________________
 
-#✨ Key Features
+# Key Features
 
 🖐 Hand Tracking
 
@@ -93,7 +93,7 @@ Save typed text to file
 __________________________________________________________________________________________________________
 
 
-#🧠 Technical Architecture
+# Technical Architecture
 
 1️⃣ Input Layer
 
@@ -133,7 +133,7 @@ Animated text rendering using sine functions
 
 Overlay-based glow system
 _________________________________________________________________________________________________________________________________
-#🛠 Tech Stack
+# Tech Stack
 
 Technology	Purpose
 Python	Core language
@@ -148,7 +148,7 @@ cd Neon-Type-Virtual-Keyboard
 pip install -r requirements.txt
 python neon_type.py
 ______________________________________________________________________________________________________________________________
-📂 Project Structure
+# Project Structure
 
 Neon-Type-Virtual-Keyboard/
 │
@@ -159,7 +159,7 @@ Neon-Type-Virtual-Keyboard/
 └── assets/
     └── demo.gif
 ___________________________________________________________________________________________________________________________
-#🎯 How It Works
+# How It Works
 
 Webcam captures frame
 HandDetector extracts landmarks
@@ -168,14 +168,14 @@ If distance < threshold → click event triggered
 Corresponding key is appended to text buffer
 Visual & audio feedback executed
 ______________________________________________________________________________________________________________________________
-#📊 Performance Considerations
+# Performance Considerations
 
 Optimized for 720p resolution
 Single-hand detection for efficiency
 Time-based debounce for input stability
 Lightweight UI rendering (no external GUI frameworks)
 ______________________________________________________________________________________________________________________________
-#🚀 Future Improvements
+# Future Improvements
 
 🔤 AI-powered word prediction (language model integration)
 
@@ -191,12 +191,12 @@ ________________________________________________________________________________
 
 📱 Port to touchless kiosk systems
 ________________________________________________________________________________________________________________________________
-#🎥 Demo
+# Demo
 
 <img width="1876" height="1025" alt="Screenshot 2025-12-22 000028" src="https://github.com/user-attachments/assets/9bfcb4c0-d4fc-4b8c-b60a-5bbd7af1644e" />
 
 __________________________________________________________________________________________________________________________________
-#💡 Use Cases
+# Use Cases
 
 Touchless interfaces
 
@@ -208,10 +208,11 @@ Interactive installations
 
 AI + HCI academic demonstrations
 _______________________________________________________________________________________________________________________________
-#👩🏻‍💻 Author
+# Author
 
-Nada Hossam
-AI & Computer Vision Engineer
+
+# Nada Hossam
+# AI & Computer Vision Engineer
 
 Passionate about building intelligent real-time interactive systems that merge AI with creative user experience.
 
