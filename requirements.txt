@@ -1,7 +1,6 @@
-streamlit
-opencv-python-headless
+streamlit==1.26.0
+opencv-python
 cvzone
-mediapipe
 numpy
-playsound
 pygame
+
