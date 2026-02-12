@@ -1,50 +1,71 @@
-# AI Virtual Keyboard
+# 🎮 NEON TYPE – AI Virtual Keyboard
 
-A **hand gesture-based virtual keyboard** using Python, OpenCV, and MediaPipe. Type text in real-time using hand movements and finger gestures.
+A futuristic **Neon Gaming Virtual Keyboard** built using **Python & Computer Vision**.
 
----
-
-## Features
-
-- Detects a single hand and tracks finger tips.
-- Virtual keyboard interaction:
-- Click keys by bringing index finger and thumb together.
-- Support for letters, Space, Delete, Shift, and Save keys.
-- Word prediction for faster typing.
-- Save typed text to a file.
-- Visual feedback with hover and click effects.
-- Sound effects for key clicks.
+Control the keyboard using your hand gestures through your webcam ✋
+Pinch your fingers to type 👆
+Enjoy neon animations, shockwave effects, and real-time interaction ⚡
 
 ---
 
+## 🚀 Features
 
-## Usage
-
-- Hover your index finger over a key to highlight it.
-- Bring thumb and index finger together to select a key.
-- Shift toggles capitalization.
-- Save writes the current text to typed_text.txt.
-
+* 🖐 Hand tracking using MediaPipe & CVZone
+* 👆 Pinch gesture click detection
+* 💡 Neon gaming UI design
+* 🌊 Animated wave text effect
+* 💥 Shockwave click animation
+* 🔊 Sound feedback on click
+* 🔠 Shift / Caps toggle
+* 💾 Save typed text to file
 
 ---
 
-## Requirements
+## 🛠 Technologies Used
 
-- Python 3.8+
-- OpenCV
-- NumPy
-- MediaPipe
-- Playsound
+* Python
+* OpenCV
+* CVZone
+* MediaPipe
+* NumPy
+* Pygame
 
-Install dependencies via pip:
+---
+
+## 📷 Demo
+
+(Add your screenshot or screen recording here)
+
+---
+
+## 📦 Installation
 
 ```bash
-pip install opencv-python numpy mediapipe playsound
+git clone https://github.com/your-username/Neon-Type-Virtual-Keyboard.git
+cd Neon-Type-Virtual-Keyboard
+pip install -r requirements.txt
+python neon_type.py
+```
+
+---
+
+## 🎯 How It Works
+
+* The webcam detects your hand.
+* The system tracks index finger & thumb.
+* When the distance between them is small → a click is triggered.
+* The pressed key is added to the text field.
+
+---
+
+## 💙 Author
+
+Nada Hossam
+AI & Computer Vision Enthusiast
+
+---
 
 
-## How to Run
 
-```bash
-python virtual_keyboard.py
 
 
