@@ -1,11 +1,13 @@
-🎮 NEON TYPE
+#🎮 NEON TYPE
+
 Gesture-Controlled Virtual Keyboard using Computer Vision
 
 A real-time, interactive virtual keyboard powered by hand tracking and gesture recognition.
 Designed with a futuristic neon gaming UI and immersive visual feedback effects.
 _______________________________________________________________________________________________
 
-📌 Overview
+
+#📌 Overview
 
 Neon Type is a real-time virtual keyboard that allows users to type using hand gestures captured through a webcam.
 
@@ -25,7 +27,8 @@ Human-computer interaction (HCI)
 This project demonstrates applied AI in user interface control without physical input devices.
 _________________________________________________________________________________________________________________
 
-✨ Key Features
+#✨ Key Features
+
 🖐 Hand Tracking
 
 Real-time hand detection using MediaPipe (via CVZone)
@@ -90,7 +93,8 @@ Save typed text to file
 __________________________________________________________________________________________________________
 
 
-🧠 Technical Architecture
+#🧠 Technical Architecture
+
 1️⃣ Input Layer
 
 Webcam stream via OpenCV
@@ -129,7 +133,8 @@ Animated text rendering using sine functions
 
 Overlay-based glow system
 _________________________________________________________________________________________________________________________________
-🛠 Tech Stack
+#🛠 Tech Stack
+
 Technology	Purpose
 Python	Core language
 OpenCV	Image processing & rendering
@@ -144,6 +149,7 @@ pip install -r requirements.txt
 python neon_type.py
 ______________________________________________________________________________________________________________________________
 📂 Project Structure
+
 Neon-Type-Virtual-Keyboard/
 │
 ├── neon_type.py
@@ -153,7 +159,7 @@ Neon-Type-Virtual-Keyboard/
 └── assets/
     └── demo.gif
 ___________________________________________________________________________________________________________________________
-##🎯 How It Works
+#🎯 How It Works
 
 Webcam captures frame
 HandDetector extracts landmarks
@@ -162,14 +168,14 @@ If distance < threshold → click event triggered
 Corresponding key is appended to text buffer
 Visual & audio feedback executed
 ______________________________________________________________________________________________________________________________
-##📊 Performance Considerations
+#📊 Performance Considerations
 
 Optimized for 720p resolution
 Single-hand detection for efficiency
 Time-based debounce for input stability
 Lightweight UI rendering (no external GUI frameworks)
-
-🚀 Future Improvements
+______________________________________________________________________________________________________________________________
+#🚀 Future Improvements
 
 🔤 AI-powered word prediction (language model integration)
 
@@ -184,12 +190,13 @@ Lightweight UI rendering (no external GUI frameworks)
 🎨 Theme switching system
 
 📱 Port to touchless kiosk systems
-
-🎥 Demo
+________________________________________________________________________________________________________________________________
+#🎥 Demo
 
 <img width="1876" height="1025" alt="Screenshot 2025-12-22 000028" src="https://github.com/user-attachments/assets/9bfcb4c0-d4fc-4b8c-b60a-5bbd7af1644e" />
 
-💡 Use Cases
+__________________________________________________________________________________________________________________________________
+#💡 Use Cases
 
 Touchless interfaces
 
@@ -200,8 +207,8 @@ Smart kiosks
 Interactive installations
 
 AI + HCI academic demonstrations
-
-👩🏻‍💻 Author
+_______________________________________________________________________________________________________________________________
+#👩🏻‍💻 Author
 
 Nada Hossam
 AI & Computer Vision Engineer
