@@ -1,4 +1,7 @@
 opencv-python
 numpy
-mediapipe
 playsound
+streamlit
+cvzone
+mediapipe
+pygame
