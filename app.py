@@ -3,15 +3,20 @@ import cv2
 from cvzone.HandTrackingModule import HandDetector
 import numpy as np
 import time
+import pygame
 import math
 
 # ================= Streamlit Page =================
 st.set_page_config(layout="wide")
-st.title("🎮 Neon Type Virtual Keyboard Demo (Cloud-Friendly)")
+st.title("🎮 Neon Type Virtual Keyboard Demo")
 
-# ================= Sound (Cloud-Safe) =================
+# ================= Sound =================
+pygame.mixer.init()
 def playsound(file):
-    pass  # معلق مؤقتًا عشان Streamlit Cloud
+    try:
+        pygame.mixer.Sound(file).play()
+    except:
+        pass
 
 # ================= Camera =================
 cap = cv2.VideoCapture(0)
@@ -38,7 +43,7 @@ START_X, START_Y = 80, 180
 
 stframe = st.empty()
 st.sidebar.header("Typed Text")
-text_box = st.sidebar.empty()
+text_box = st.sidebar.empty()  # النص اللي هيظهر في Sidebar
 
 # ================= Helpers =================
 def get_key(pos):
@@ -74,7 +79,9 @@ while True:
         break
 
     img = cv2.flip(img, 1)
-    img = cv2.addWeighted(img, 0.2, np.zeros_like(img), 0.8, 0)  # Dark effect
+
+    # Dark camera effect
+    img = cv2.addWeighted(img, 0.2, np.zeros_like(img), 0.8, 0)
 
     hands, img = detector.findHands(img)
 
@@ -125,7 +132,7 @@ while True:
         dt = time.time() - shockwave["start"]
         r = int(dt*300)
         if r < 120:
-            cv2.circle(img, shockwave["pos"], r, (255,0,120), 2)
+            cv2.circle(img, shockwave["pos"], r, (255,0,120),2)
         else:
             shockwave = None
 
@@ -162,5 +169,7 @@ while True:
 
     # Reduce CPU load
     time.sleep(0.03)
+
+
 
 
